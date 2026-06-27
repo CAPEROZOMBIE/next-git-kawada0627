@@ -1,0 +1,101 @@
+.title {
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 12px;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.pageNumber {
+  margin: 0 8px;
+}
+
+.active {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+
+.test {
+   display: flex;
+   gap: 5px;
+   margin-bottom: 30px;
+      padding: 0px;
+      margin-top: 25px;
+
+}
+
+.thumbnail{
+   margin-top: 0px;
+}
+
+/* .thumbnail img{
+   padding: 10px;
+} */
+
+.test2 {
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   margin-top: -5px;
+}
+
+.h4 {
+   margin: 0px;
+   padding: 0px; /*デフォルトだろ*/
+
+}
+
+/* .time {
+
+} */
+
+.test3 {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 30px;
+   margin-bottom: 5px;
+
+   
+   
+}
+
+.test5 {
+   margin-top: 40px;
+}
+
+/* .h1 {
+   margin: 0px;
+   padding: 0px;
+}
+
+.test6 {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   gap: 30px;
+} */
+
+
+
+/*  */
+
+
+.loader{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+ 0%{opacity:0.2}
+ 50%{opacity:1}
+ 100%{opacity:0.2}
+}

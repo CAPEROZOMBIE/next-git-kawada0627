@@ -1,0 +1,74 @@
+/* app/components/Nav/Nav.module.css */
+
+
+/********** PC状態 ***********/
+
+/* .nav{
+
+} */
+
+.ul {
+   display: flex;
+   gap: 30px;
+   list-style: none;
+}
+
+.btn {
+   display: none;
+   cursor: pointer;
+}
+
+ .close {
+   display: none;
+}
+
+/*********** スマホ状態 ***********/
+
+
+@media(max-width:768px) {
+
+   .nav {
+      display: none;
+   }
+
+   .ul {
+      display: block;
+   }
+
+   .btn {
+      display: block;
+      background-color: aliceblue;
+   }
+
+   .nav.open {
+    display: block;
+    background-color:red; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+   }
+
+   .overLay {
+      background-color: green;
+          position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+   }
+
+   .close {
+      display: block;
+      position: absolute;
+      top:20px;
+      right: 20px;
+   }
+
+}
+
+
+
+

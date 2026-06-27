@@ -1,0 +1,13 @@
+/* app/components/Header/header.module.css */
+
+.boxbg {
+   background-color: antiquewhite;
+   opacity: 0;
+   display: none;
+}
+
+.boxbg2 {
+   background-color: aqua;
+      opacity: 0;
+         display: none;
+}

@@ -1,0 +1,24 @@
+.title {
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 12px;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.pageNumber {
+  margin: 0 8px;
+}
+
+.active {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.disabled {
+  opacity: 0.5;
+}

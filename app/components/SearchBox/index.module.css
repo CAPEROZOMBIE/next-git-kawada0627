@@ -1,0 +1,46 @@
+.form {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.search:focus-within {
+  border-color: #b3b3b3;
+}
+
+.searchInput {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+/* 検索ボタン */
+
+.kensaku {
+   height: 28px;
+}
+
+
+
+
+
+
+
+

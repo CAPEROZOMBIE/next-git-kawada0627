@@ -1,0 +1,75 @@
+/* app/components/Nav02/Nav.module.css */
+
+
+/********** PC状態 ***********/
+
+.ul {
+   display: flex;
+   gap: 40px;
+   list-style: none;
+}
+
+.btn {
+   display: none;
+   position: fixed;
+   top: 0px;
+   right: 0px;
+}
+
+
+
+/********** スマホ状態 ***********/
+
+@media (max-width:768px) {
+
+   .ul {
+      display: none;
+      /* 足し */
+      position: fixed;
+      inset: 0 -100% 0 100%;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.8);
+      color: var(--white);
+      /* transition: transform 0.4s; */
+      color: orange;
+      font-weight: bold;
+      background-color: antiquewhite;
+      display: grid;
+      gap: 40px;
+      place-content: center;
+      text-align: center;
+      /* 試し */
+      opacity: 0;
+      filter: blur(5px);
+      transition: filter 0.5s, opacity 0.5s;
+   }
+
+   .btn {
+      /* 足し */
+      display: block;
+      position: fixed;
+      z-index: 200;
+      top: 0px;
+      right: 0px;
+      background-color: aliceblue;
+   }
+
+   .open .btn {
+      color: aqua;
+   }
+
+   .close .btn {
+      color: red;
+   }
+
+   .open .ul {
+      /* 足し */
+      display: block;
+      transform: translateX(-100%);
+      /* 試し */
+      opacity: 1;
+      filter: blur(0px);
+   }
+
+
+}
