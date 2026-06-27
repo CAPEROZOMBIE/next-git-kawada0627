@@ -1,11 +1,8 @@
 {
-  "name": "next-kawada",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-06-27",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "assets": {
-    "directory": ".open-next/assets"
-  }
+    "name": "next-kawada",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2026-06-27",
+    "compatibility_flags": ["nodejs_compat"],
+    "assets": {"directory": ".open-next/assets","binding": "ASSETS" },
+    "images": {"binding": "IMAGES"}
 }
